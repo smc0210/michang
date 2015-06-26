@@ -2804,8 +2804,8 @@
         }
         $isLogin = $member_control->isLogin();
         
-        /if($isLogin)
-        {
+		  //if($isLogin)
+        //{
             $isSuccess = false;
             if($w == "c")
             {
@@ -2835,15 +2835,15 @@
                 $directUrl = $_SERVER['HTTP_REFERER'];
                 //$directUrl = $baseUrl."sub.php?code=".$code."&searchType=".$searchType."&search=".$search."&page=".$page."&mode=view&board_num=".$board_num."&password=".$password."&c_page=".$c_page;
             }     
-        }
-
+        //}
+/*
         else
         {
             alert("회원만이 댓글을 쓸 수 있습니다.");
             $directUrl = $_SERVER['HTTP_REFERER'];
             //$directUrl = $baseUrl."sub.php?code=".$code."&searchType=".$searchType."&search=".$search."&page=".$page."&mode=view&board_num=".$board_num."&password=".$password."&c_page=".$c_page;            
         }
-
+*/
 
     }
     else if($actionType == "password")
